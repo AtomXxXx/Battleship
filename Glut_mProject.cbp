@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Glut_mProject" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Glut_mProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lglut -lGL -lGLEW -lGLU" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Glut_mProject" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lglut -lGL -lGLEW -lGLU" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Source/AI.cpp" />
+		<Unit filename="Source/AI.h" />
+		<Unit filename="Source/Animation.cpp" />
+		<Unit filename="Source/Animation.h" />
+		<Unit filename="Source/AnimationController.cpp" />
+		<Unit filename="Source/AnimationController.h" />
+		<Unit filename="Source/Board.cpp" />
+		<Unit filename="Source/Board.h" />
+		<Unit filename="Source/GameManager.cpp" />
+		<Unit filename="Source/GameManager.h" />
+		<Unit filename="Source/GraphicsHelpers.h" />
+		<Unit filename="Source/Grid.cpp" />
+		<Unit filename="Source/Grid.h" />
+		<Unit filename="Source/Ship.cpp" />
+		<Unit filename="Source/Ship.h" />
+		<Unit filename="Source/States.h" />
+		<Unit filename="Source/Texture.cpp" />
+		<Unit filename="Source/Texture.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

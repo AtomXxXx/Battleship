@@ -1,0 +1,184 @@
+# depslib dependency file v1.0
+1494570228 source:/home/akshay/Desktop/Glut_mProject/gltest.cpp
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<vector>
+	<list>
+	<math.h>
+	"stb_image.h"
+
+1490547296 /home/akshay/Desktop/Glut_mProject/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1494570228 source:/home/akshay/Desktop/MiniProject/gltest.cpp
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	<vector>
+	<list>
+	<math.h>
+	"stb_image.h"
+
+1490547296 /home/akshay/Desktop/MiniProject/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1504454111 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Animation.cpp
+	"Animation.h"
+	"GraphicsHelpers.h"
+
+1504453563 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Animation.h
+	"Texture.h"
+
+1504458037 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Texture.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<stdio.h>
+	"stb/stb_image.h"
+
+1504458410 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/GraphicsHelpers.h
+	<GL/freeglut.h>
+	<GL/gl.h>
+
+1504458026 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Texture.cpp
+	"Texture.h"
+	"stb/stb_image.h"
+
+1504457139 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/gltest.cpp
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<time.h>
+	<GL/freeglut.h>
+	<GL/gl.h>
+	"Source/GraphicsHelpers.h"
+	"Source/Texture.h"
+	"Source/Animation.h"
+	"Source/AnimationController.h"
+	"Source/States.h"
+	"Source/Grid.h"
+	"Source/Ship.h"
+	"Source/Board.h"
+	"Source/AI.h"
+	"Source/GameManager.h"
+
+1504453283 /home/akshay/Desktop/refactorBattle/Glut_mProject/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1504454519 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/AnimationController.h
+	<vector>
+	<list>
+	<string.h>
+	"Animation.h"
+
+1504454499 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/AnimationController.cpp
+	"AnimationController.h"
+
+1504455008 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Grid.h
+	"GraphicsHelpers.h"
+	<math.h>
+
+1504454964 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Grid.cpp
+	"Grid.h"
+
+1504455189 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Ship.h
+	"Grid.h"
+
+1504455172 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Ship.cpp
+	"Ship.h"
+
+1504455890 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/States.h
+
+1504456073 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Board.h
+	"States.h"
+	"Grid.h"
+	"Ship.h"
+
+1504457614 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/AI.h
+	"States.h"
+	"Board.h"
+
+1504456700 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/GameManager.h
+	"AI.h"
+	"States.h"
+	"AnimationController.h"
+	"Board.h"
+	"Texture.h"
+	"Animation.h"
+
+1504456723 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/Board.cpp
+	"Board.h"
+	"GameManager.h"
+
+1504456955 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/AI.cpp
+	"AI.h"
+
+1504457172 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/Source/GameManager.cpp
+	"GameManager.h"
+
+1504453283 /home/akshay/Desktop/refactorBattle/Glut_mProject/Source/stb/stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1504457575 source:/home/akshay/Desktop/refactorBattle/Glut_mProject/main.cpp
+	<time.h>
+	<GL/freeglut.h>
+	<GL/gl.h>
+	"Source/GraphicsHelpers.h"
+	"Source/GameManager.h"
+
